@@ -14,5 +14,7 @@ ytext.insertEmbed(ytext.toString().length, {
   src: "https://example.com/image.png",
 })
 
-console.log(ytext.toString())
-console.log(ytext.toDelta())
+console.log("length:", ytext.length)
+console.log("text_length:", ytext.toString().length)
+console.log("string:", ytext.toString())
+console.log("delta:", ytext.toDelta())
